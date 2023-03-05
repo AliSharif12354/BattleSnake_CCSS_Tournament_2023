@@ -1,0 +1,222 @@
+ {
+  "game": {
+    "id": "b7883d15-3fc1-48b5-a1d0-62b5bbefc9ed",
+    "ruleset": {
+      "name": "standard",
+      "version": "v1.2.3",
+      "settings": {
+        "foodSpawnChance": 15,
+        "minimumFood": 1,
+        "hazardDamagePerTurn": 0,
+        "hazardMap": "",
+        "hazardMapAuthor": "",
+        "royale": {
+          "shrinkEveryNTurns": 0
+        },
+        "squad": {
+          "allowBodyCollisions": false,
+          "sharedElimination": false,
+          "sharedHealth": false,
+          "sharedLength": false
+        }
+      }
+    },
+    "map": "standard",
+    "timeout": 500,
+    "source": "custom"
+  },
+  "turn": 1,
+  "board": {
+    "height": 11,
+    "width": 11,
+    "snakes": [
+      {
+        "id": "gs_7tvP99rxFX37DtHY8r4jMBqP",
+        "name": "test",
+        "latency": "108",
+        "health": 99,
+        "body": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ],
+        "head": {
+          "x": 9,
+          "y": 0
+        },
+        "length": 3,
+        "shout": "",
+        "squad": "",
+        "customizations": {
+          "color": "#888888",
+          "head": "default",
+          "tail": "default"
+        }
+      },
+      {
+        "id": "gs_tWGB8dBVh4GBTGVBvfG8WQbJ",
+        "name": "Hungry Bot",
+        "latency": "1",
+        "health": 99,
+        "body": [
+          {
+            "x": 1,
+            "y": 10
+          },
+          {
+            "x": 1,
+            "y": 9
+          },
+          {
+            "x": 1,
+            "y": 9
+          }
+        ],
+        "head": {
+          "x": 1,
+          "y": 10
+        },
+        "length": 3,
+        "shout": "",
+        "squad": "",
+        "customizations": {
+          "color": "#00cc00",
+          "head": "alligator",
+          "tail": "alligator"
+        }
+      },
+      {
+        "id": "gs_3F7VP8M7KTWgWxgrRyWjtTK7",
+        "name": "Hungry Bot",
+        "latency": "1",
+        "health": 99,
+        "body": [
+          {
+            "x": 9,
+            "y": 8
+          },
+          {
+            "x": 9,
+            "y": 9
+          },
+          {
+            "x": 9,
+            "y": 9
+          }
+        ],
+        "head": {
+          "x": 9,
+          "y": 8
+        },
+        "length": 3,
+        "shout": "",
+        "squad": "",
+        "customizations": {
+          "color": "#00cc00",
+          "head": "alligator",
+          "tail": "alligator"
+        }
+      },
+      {
+        "id": "gs_Tfw6vMf3wjqrk9JD9y4GXg3B",
+        "name": "Hungry Bot",
+        "latency": "1",
+        "health": 99,
+        "body": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "head": {
+          "x": 1,
+          "y": 2
+        },
+        "length": 3,
+        "shout": "",
+        "squad": "",
+        "customizations": {
+          "color": "#00cc00",
+          "head": "alligator",
+          "tail": "alligator"
+        }
+      }
+    ],
+    "food": [
+      {
+        "x": 10,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 10
+      },
+      {
+        "x": 10,
+        "y": 8
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 5
+      },
+      {
+        "x": 7,
+        "y": 5
+      }
+    ],
+    "hazards": []
+  },
+  "you": {
+    "id": "gs_7tvP99rxFX37DtHY8r4jMBqP",
+    "name": "test",
+    "latency": "108",
+    "health": 99,
+    "body": [
+      {
+        "x": 9,
+        "y": 0
+      },
+      {
+        "x": 9,
+        "y": 1
+      },
+      {
+        "x": 9,
+        "y": 1
+      }
+    ],
+    "head": {
+      "x": 9,
+      "y": 0
+    },
+    "length": 3,
+    "shout": "",
+    "squad": "",
+    "customizations": {
+      "color": "#888888",
+      "head": "default",
+      "tail": "default"
+    }
+  }
+}
